@@ -10,6 +10,22 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  @keyframes rotateAnticlockwise {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(-90deg);
+    }
+  }
+  @keyframes rotateClockwise {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(90deg);
+    }
+  }
 }
 
 @media (prefers-color-scheme: dark) {
